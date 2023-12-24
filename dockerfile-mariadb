@@ -1,0 +1,8 @@
+# Utilisez l'image officielle MariaDB en spécifiant la version si nécessaire
+FROM mariadb:latest
+
+LABEL maintainer="hvnyx"
+
+# Ajoutez des configurations supplémentaires si nécessaire
+# COPY my-custom-mariadb-config.cnf /etc/mysql/my.cnf
+
